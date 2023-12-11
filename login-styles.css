@@ -1,3 +1,37 @@
-<style>
+/*.container {  
+    display: flex;
+    flex-direction: column;
+} */
 
-</style>
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*position: fixed;
+    top: 270px;
+    bottom: 270px;*/
+}
+#username {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: sans-serif;
+}
+
+#password {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: sans-serif;
+}
+
+#sign-in {
+    background-color: rgb(84, 84, 199);
+    font-family: sans-serif;
+    font-size: 20px;
+    border-color: rgb(205, 126, 24);
+    color: whitesmoke;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 5px;
+}
