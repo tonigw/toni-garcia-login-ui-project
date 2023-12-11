@@ -1,14 +1,37 @@
-/*.container {  
+.container {  
     display: flex;
     flex-direction: column;
-} */
+    justify-content: center;
+    align-items: center;
+    /*margin: 140px;*/
+    box-shadow: 6px 6px 25px 1px #a35d5d;
+    border-radius: 12px;
+    min-height: 300px;
+    max-height: 500px;
+} 
+
+body {
+   /* margin: 10px;*/
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 90%;
+}
 
 .login {
     display: flex;
+    /*position: relative;*/
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*position: fixed;
-    top: 270px;
+    /*box-shadow: 8px 8px 8px 8px #a35d5d;*/
+    border:  80px solid transparent;
+    /*margin: 5px;*/
+    /*padding: 5px;
+    margin: 5px;*/
+    /*top: 300px;
     bottom: 270px;*/
 }
 #username {
@@ -16,6 +39,7 @@
     border: none;
     border-bottom: 2px solid black;
     font-family: sans-serif;
+
 }
 
 #password {
@@ -25,8 +49,8 @@
     font-family: sans-serif;
 }
 
-#sign-in {
-    background-color: rgb(84, 84, 199);
+#sign-in:hover {
+    background-color: rgb(233, 95, 54);
     font-family: sans-serif;
     font-size: 20px;
     border-color: rgb(205, 126, 24);
@@ -34,4 +58,11 @@
     border-radius: 12px;
     padding: 5px;
     margin: 5px;
+}
+
+#top-picture {
+    font-size: 60px;
+    font-family: fantasy;
+    font-style: italic;
+    color: tomato;
 }
